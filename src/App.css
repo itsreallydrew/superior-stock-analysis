@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap");
+
+html,
+body {
+  margin: 0;
+  background-image: url("../src/assets/2118876.jpg");
+  background-size: cover;
+}
+
+header {
+  background-color: black;
+  margin: 0;
+  display: grid;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  font-size: 20px;
+  color: white;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-family: "Rubik", sans-serif;
+  display: inline-block;
+}
+
+nav a:hover {
+  background-color: #282c34;
+}
+
+main > div {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
