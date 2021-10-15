@@ -7,7 +7,7 @@ import './StockSymbol.css';
 function StockSymbol() {
 	const [tickerData, setTickerData] = useState();
 	const { symbol } = useParams();
-	const key = REACT_APP_IEXCLOUD_KEY;
+	const key = process.env.REACT_APP_IEXCLOUD_KEY;
 
 	useEffect(() => {
 		//   const url = `https://cloud.iexapis.com/stable/stock/${symbol}/quote?token=${
