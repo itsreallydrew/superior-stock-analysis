@@ -1,48 +1,44 @@
-[![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
+# Superior Stock Analysis
 
-# React Router & APIs
+This application is a stock tracker based off the stocks recommended by Youtuber Chris Sain. It provides a variety of pertinent information regarding a particular stock at any given time in the stock market.
 
-For today's lab you will be building a stock tracking app. The lab will be
-broken down into two parts:
+This application makes use of the API from IEX Cloud to supply the financial information.
 
-1. Build a React app that uses `react-router`
-1. Communicate with 3rd-party APIs
+## Inspiration
 
-## Prerequisites
-
-- React
-- Components and life cycle methods
-- Props and state
-- React Router
+The stock market is always a popular topic among those interested in increasing their finances. My best introduction was through watching videos by Chris Sain. One of his followers put together a stock tracker using an excel spreadsheet. I used that information to build out a JSON file containing the initial seed data for the stocks.
 
 ## Instructions
 
-1. Fork and clone this repository.
-1. Change into the new directory.
-1. Install dependencies.
-1. Fulfill the listed requirements.
+Fork and clone this repo.
 
-## Requirements
+```bash
+#install dependencies
+npm i
+#install react
+npx create-react-app <folder name>
+#install react-router
+npm i react-router-dom
+#start app
+npm start
+```
 
-### Part I: [React Router](part-i.md)
+You will have to create your own API key from the IEX cloud website.
 
-### Part II: [Adding APIs](part-ii.md)
+## Tech
 
-## Resources
+- React.js
+- CSS
+- HTML
 
-- [React Router Lesson Plan](https://git.generalassemb.ly/seir-323/react-router)
-- [`<Route render={ ... } />`](https://reacttraining.com/react-router/web/api/Route/render-func)
-  vs
-  [`<Route component={ ... } />`](https://reacttraining.com/react-router/web/api/Route/component)
+## License
 
-## Plagiarism
+MIT License
 
-Take a moment to refamiliarize yourself with the
-[Plagiarism policy](https://git.generalassemb.ly/DC-WDI/Administrative/blob/master/plagiarism.md).
-Plagiarized work will not be accepted.
+Copyright (c) [2021][andrew mclean]
 
-## [License](LICENSE)
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
-1.  All software code is licensed under GNU GPLv3. For commercial use or
-    alternative licensing, please contact legal@ga.co.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
