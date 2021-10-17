@@ -1,64 +1,55 @@
 main.stock-symbol-details {
-  display: flex;
-  padding: 15px;
-  flex-flow: column wrap;
-  height: 550px;
-  width: 550px;
-  margin: 0 auto;
-  margin-top: 90px;
-  background-color: whitesmoke;
-  border-radius: 20px;
+	display: flex;
+	padding: 15px;
+	flex-flow: column wrap;
+	height: 550px;
+	width: 550px;
+	margin: 0 auto;
+	margin-top: 90px;
+	background-color: whitesmoke;
+	border-radius: 20px;
 }
 
 h1.loading {
-  text-align: center;
+	text-align: center;
 }
 
 div.symbol {
-  justify-content: center;
-  background-color: whitesmoke;
+	justify-content: center;
+	background-color: whitesmoke;
 }
 
 h3.name-symbol {
-  border-bottom: 2px solid black;
-  font-size: 23px;
+	border-bottom: 2px solid black;
+	font-size: 23px;
 }
 
 ul.details * {
-  list-style-type: none;
-  margin-top: 18px;
-  font-size: 20px;
+	list-style-type: none;
+	margin-top: 18px;
+	font-size: 20px;
 }
 
 li::before {
-  content: "\1F4CA";
-  margin-left: -15px;
-  margin-right: 5px;
+	content: '\1F4CA';
+	margin-left: -15px;
+	margin-right: 5px;
 }
 
 .exchange::before {
-  content: "\1F4B1";
-  margin-left: -15px;
-  margin-right: 5px;
+	content: '\1F4B1';
+	margin-left: -15px;
+	margin-right: 5px;
 }
 
 .high::before {
-  content: "\1F4C8";
-  margin-left: -15px;
-  margin-right: 5px;
+	content: '\1F4C8';
+	margin-left: -15px;
+	margin-right: 5px;
 }
 
 .low::before {
-  content: "\1F4C9";
-  margin-left: -15px;
-  margin-right: 5px;
+	content: '\1F4C9';
+	margin-left: -15px;
+	margin-right: 5px;
 }
-
-/* Daily Low - low U+1F4C9
-Daily High - high U+1F4C8
-52 Low - week52Low U+1F4C9
-52 High - week52High U+1F4C8
-Open - open
-Close - close
-Change - change U+1F4CA
-Exchange - primaryExchange U+1F4B1 */
