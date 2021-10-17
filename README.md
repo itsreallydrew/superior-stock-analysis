@@ -8,6 +8,9 @@ This application makes use of the API from IEX Cloud to supply the financial inf
 
 The stock market is always a popular topic among those interested in increasing their finances. My best introduction was through watching videos by Chris Sain. One of his followers put together a stock tracker using an excel spreadsheet. I used that information to build out a JSON file containing the initial seed data for the stocks.
 
+## Screenshot
+![Screen Shot 2021-10-16 at 12 10 40 PM](https://user-images.githubusercontent.com/88289750/137605891-0b61d565-8a32-48f6-9b51-35982efb0262.png)
+
 ## Instructions
 
 Fork and clone this repo.
