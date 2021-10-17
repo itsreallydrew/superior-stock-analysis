@@ -10,10 +10,6 @@ function StockSymbol() {
 	const key = process.env.REACT_APP_IEXCLOUD_KEY;
 
 	useEffect(() => {
-		//   const url = `https://cloud.iexapis.com/stable/stock/${symbol}/quote?token=${
-		//     process.env.REACT_APP_IEXCLOUD_KEY
-		//   }`;
-
 		axios({
 			method: 'get',
 			url: `https://cloud.iexapis.com/stable/stock/${symbol}/quote?token=${key}`,
@@ -24,22 +20,8 @@ function StockSymbol() {
 			.catch(function(err) {
 				console.log(err);
 			});
-
-		//   fetch(url)
-		//     .then(res => res.json())
-		//     .then(res => {
-		//       console.log(res);
-		//       setTickerData(res);
-		//       console.log(tickerData);
-		//     })
-		//     .catch(err => console.log(err));
 	}, []);
 
-	//   let filtered = stockData.find(ticker => {
-	//     if (ticker.symbol === symbol) {
-	//       return ticker;
-	//     }
-	//   });
 	if (!tickerData) {
 		return <h1 className="loading">Loading...</h1>;
 	}
